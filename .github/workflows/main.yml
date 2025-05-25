@@ -1,0 +1,16 @@
+name: Email Step Test
+
+on:
+  push:
+    branches:
+      - main  # or your active branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: 23f3003811@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
